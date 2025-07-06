@@ -1,8 +1,7 @@
 # Ignore Python venv
 venv/
-
-# Ignore data files
 data/
+data/raw/filtered_complaints.csv
 data/raw/*
 !data/raw/.gitkeep
 
