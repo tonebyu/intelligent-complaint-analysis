@@ -2,6 +2,7 @@
 venv/
 
 # Ignore data files
+data/
 data/raw/*
 !data/raw/.gitkeep
 
@@ -16,3 +17,4 @@ __pycache__/
 
 # Ignore environment settings
 .env
+
