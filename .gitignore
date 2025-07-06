@@ -1,7 +1,7 @@
 # Ignore Python venv
 venv/
 data/filtered_complaints.csv 
-data/complaints.csv 
+data/raw/complaints.csv 
 # Ignore vector store
 vector_store/
 
