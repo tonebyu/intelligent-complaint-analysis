@@ -2,6 +2,7 @@
 venv/
 data/filtered_complaints.csv 
 data/raw/complaints.csv 
+data/raw/complaints.csv
 # Ignore vector store
 vector_store/
 
