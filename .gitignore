@@ -16,4 +16,12 @@ __pycache__/
 .env
 *.csv
 *.zip
-
+# .gitignore
+*.csv
+*.pkl
+*.index
+*.bin
+*.pt
+*.zip
+venv/
+.vector_store/
