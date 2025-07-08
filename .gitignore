@@ -1,8 +1,7 @@
 # Ignore Python venv
 venv/
-data/filtered_complaints.csv 
-data/raw/complaints.csv 
-data/raw/complaints.csv
+data/**
+"data/raw/"
 # Ignore vector store
 vector_store/
 
@@ -14,4 +13,6 @@ __pycache__/
 
 # Ignore environment settings
 .env
+*.csv
+*.zip
 
