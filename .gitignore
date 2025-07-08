@@ -1,7 +1,7 @@
 # Ignore Python venv
 venv/
-data/filtered_complaints.csv 
-data/complaints.csv 
+data/**
+"data/raw/"
 # Ignore vector store
 vector_store/
 
@@ -10,7 +10,18 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+.vscode/
 
 # Ignore environment settings
 .env
-
+*.csv
+*.zip
+# .gitignore
+*.csv
+*.pkl
+*.index
+*.bin
+*.pt
+*.zip
+venv/
+.vector_store/
